@@ -5,5 +5,5 @@ def areaCirculo(radio):
 
 r = input ("Cuál es el radio del circulo? " )
 r = int(r)
-
-print(areaCirculo(r))
+a = areaCirculo(r)
+print("{:.4f}".format(a))
